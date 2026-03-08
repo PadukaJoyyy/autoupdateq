@@ -1764,7 +1764,7 @@ Developer : @joyyyclod
 ━━━━━━━━━━━━━━━━━━━━
 
 ؕوَلَا يَحِيۡقُ الۡمَكۡرُ السَّيِّـئُ اِلَّا بِاَهۡلِهٖ
-"Rencana yang jahat tidak akan menimpa selain orang yang merencanakannya sendiri."\`\`\``;
+"Rencana yang jahat tidak akan menimpa selain orang yang merencanakannya sendiri."\`\`\``,
     parse_mode: "HTML",
     reply_markup: {
       inline_keyboard: [
