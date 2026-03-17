@@ -1872,7 +1872,7 @@ Tap Buton Bellow To Contine -></pre>`,
      }   
  });
  
- TombolRGB(chatId, sent.message_id, keyboard);
+await TombolRGB(chatId, send.message_id, keyboard);
     const audioPath = path.join(__dirname, "./lib/Joyyy.mp3");
   bot.sendAudio(chatId, audioPath, {
     caption: `Night. ☇ - Shade`,
@@ -2073,7 +2073,7 @@ replyMarkup = { inline_keyboard: [[{ text: "🔙 ƙҽɱႦαʅι", callback_data
       };
     }
     
-    MenuRGB(messageId, keyboard);
+   await MenuRGB(messageId, keyboard);
 
     await bot.editMessageMedia(
       {
